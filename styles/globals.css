@@ -25,9 +25,47 @@ body {
     line-height: 1.5rem;
 }
 
+.text-50-60-600 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.text-16-20-600 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.text-16-20-400 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.text-18-20-500 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/*.perspective {*/
+/*    transform: perspective(1000px) rotateY(-15deg);*/
+/*    transition: transform 1s ease 0s;*/
+/*}*/
+
+/*.perspective:hover {*/
+/*    transform: perspective(3000px) rotateY(0);*/
+/*}*/
+
+/* colors */
+.bg-black-custom {
+    background: rgba(21, 21, 21, 0.7);
+    backdrop-filter: blur(8px);
+}
 
 .container {
-    max-width: 1240px;
+    max-width: calc(1194px + 2rem);
     padding: 0 20px;
     width: 100%;
     margin: 0 auto;
