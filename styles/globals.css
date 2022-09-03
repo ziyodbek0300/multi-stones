@@ -43,10 +43,28 @@ body {
     line-height: 20px;
 }
 
+.text-16-20-500 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
 .text-18-20-500 {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
+}
+
+.text-24-30-600 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.text-40-48-600 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
 }
 
 /*.perspective {*/
@@ -62,6 +80,30 @@ body {
 .bg-black-custom {
     background: rgba(21, 21, 21, 0.7);
     backdrop-filter: blur(8px);
+}
+
+.card-projects .pr-text {
+    transition: .3s ease-in-out;
+}
+
+.card-projects:hover .pr-text {
+    transition: .3s;
+    top: 0;
+}
+
+.card-projects:hover .image {
+    filter: brightness(0.5);
+}
+
+.bg-tanerofka {
+    /*background-color: #fff !important;*/
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50.13%, rgba(0, 0, 0, 0.4) 82.96%) !important;
+}
+
+.fifthBg {
+    background-image: url("../public/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
