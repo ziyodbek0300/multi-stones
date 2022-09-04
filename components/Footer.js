@@ -13,12 +13,14 @@ function Footer() {
         <div className={"pt-12 pb-16"}>
             <div className={"flex justify-between gap-20 container"}>
                 <div className={"w-full"}>
-                    <Image src={Logo} className={"mb-4"} alt={"Logo"}/>
+                    <div className={"mb-4"}>
+                        <Image src={Logo} alt={"Logo"}/>
+                    </div>
                     <p className={"text-16-22-400"}>We are a family business with over 28 years of experience in the
                         stone countertop industry.</p>
                 </div>
                 <div className={"w-full"}>
-                    <p className={"text-white text-16-22-600"}>About us</p>
+                    <p className={"text-white text-16-22-600 mb-4"}>About us</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
                         <li className={"mb-3"}>Products</li>
                         <li className={"mb-3"}>Projects</li>
@@ -26,7 +28,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className={"w-full"}>
-                    <p className={"text-white text-16-22-600"}>Stones</p>
+                    <p className={"text-white text-16-22-600 mb-4"}>Stones</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
                         <li className={"mb-3"}>Marble</li>
                         <li className={"mb-3"}>Quartz</li>
@@ -34,7 +36,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className={"w-full"}>
-                    <p className={"text-white text-16-22-600"}>Contacts</p>
+                    <p className={"text-white text-16-22-600 mb-4"}>Contacts</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
                         <li className={"footer-side mb-3"}>
                             <span>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</span>
