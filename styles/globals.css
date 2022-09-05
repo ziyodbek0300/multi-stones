@@ -101,7 +101,7 @@ body {
 }
 
 .fifthBg {
-    background-image: url("../public/banner.png");
+    background-image: url('../public/banner.png') !important;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from "../../../components/Button";
 
-function FifthSection(props) {
+function FifthSection() {
     return (
         <div className={"fifthBg py-10"}>
             <div className={"container flex items-center lg:gap-20 gap-8"}>
