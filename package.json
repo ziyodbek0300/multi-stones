@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-parallax-tilt": "^1.7.60"
+    "react-parallax-tilt": "^1.7.60",
+    "react-toastify": "^9.0.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",

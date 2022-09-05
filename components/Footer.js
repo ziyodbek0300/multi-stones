@@ -4,14 +4,11 @@ import Logo from '../public/logo-white.svg';
 import Instagram from '../public/instagram.svg';
 import Facebook from '../public/facebook.svg';
 import Twitter from '../public/twitter.svg';
-import Location from '../public/map-pin.svg';
-import Email from '../public/mail.svg';
-import Phone from '../public/phone.svg';
 
 function Footer() {
     return (<div className={"bg-zinc-950 text-gray-350"}>
         <div className={"pt-12 pb-16"}>
-            <div className={"flex justify-between gap-20 container"}>
+            <div className={"flex lg:flex-row flex-col justify-between gap-20 container"}>
                 <div className={"w-full"}>
                     <div className={"mb-4"}>
                         <Image src={Logo} alt={"Logo"}/>
@@ -55,10 +52,10 @@ function Footer() {
             <div className={"container flex justify-between items-center"}>
                 <p className={"text-16-22-400"}>Copyright © {new Date().getFullYear()} Ribeiro Stones – All Rights
                     Reserved.</p>
-                <div>
-                    <Image src={Instagram} alt={"Instagram"}/>
-                    <Image src={Facebook} alt={"FaceBook"}/>
-                    <Image src={Twitter} alt={"Twitter"}/>
+                <div className={"flex gap-5"}>
+                    <a href={"https://instagram.com"} target={"_blank"}><Image src={Instagram} alt={"Instagram"}/></a>
+                    <a href={"https://facebook.com"} target={"_blank"}><Image src={Facebook} alt={"FaceBook"}/></a>
+                    <a href={"https://twitter.com"} target={"_blank"}><Image src={Twitter} alt={"Twitter"}/></a>
                 </div>
             </div>
         </div>
