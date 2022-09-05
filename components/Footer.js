@@ -4,7 +4,6 @@ import Logo from '../public/logo-white.svg';
 import Instagram from '../public/instagram.svg';
 import Facebook from '../public/facebook.svg';
 import Twitter from '../public/twitter.svg';
-
 function Footer() {
     return (<div className={"bg-zinc-950 text-gray-350"}>
         <div className={"pt-12 pb-16"}>
@@ -53,9 +52,9 @@ function Footer() {
                 <p className={"text-16-22-400"}>Copyright © {new Date().getFullYear()} Ribeiro Stones – All Rights
                     Reserved.</p>
                 <div className={"flex gap-5"}>
-                    <a href={"https://instagram.com"} target={"_blank"}><Image src={Instagram} alt={"Instagram"}/></a>
-                    <a href={"https://facebook.com"} target={"_blank"}><Image src={Facebook} alt={"FaceBook"}/></a>
-                    <a href={"https://twitter.com"} target={"_blank"}><Image src={Twitter} alt={"Twitter"}/></a>
+                    <a href={"https://instagram.com"} target={"_"}><Image src={Instagram} alt={"Instagram"}/></a>
+                    <a href={"https://facebook.com"} target={"_"}><Image src={Facebook} alt={"FaceBook"}/></a>
+                    <a href={"https://twitter.com"} target={"_"}><Image src={Twitter} alt={"Twitter"}/></a>
                 </div>
             </div>
         </div>
