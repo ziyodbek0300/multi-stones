@@ -4,13 +4,15 @@ import Logo from '../public/logo-white.svg';
 import Instagram from '../public/instagram.svg';
 import Facebook from '../public/facebook.svg';
 import Twitter from '../public/twitter.svg';
+import Link from "next/link";
+
 function Footer() {
     return (<div className={"bg-zinc-950 text-gray-350"}>
         <div className={"pt-12 pb-16"}>
             <div className={"flex lg:flex-row flex-col justify-between gap-20 container"}>
                 <div className={"w-full"}>
                     <div className={"mb-4"}>
-                        <Image src={Logo} alt={"Logo"}/>
+                        <Link href={"/"}><Image src={Logo} alt={"Logo"}/></Link>
                     </div>
                     <p className={"text-16-22-400"}>We are a family business with over 28 years of experience in the
                         stone countertop industry.</p>

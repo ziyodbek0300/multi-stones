@@ -2,8 +2,7 @@ import React from 'react';
 import Button from "../../../components/Button";
 
 function FifthSection() {
-    return (
-        <div className={"fifthBg py-10"}>
+    return (<div className={"fifthBg py-10"}>
             <div className={"container flex items-center lg:gap-20 gap-8"}>
                 <div className={"w-full"}>
                     <h2 className={"text-40-48-600 text-white mb-4"}>Contact us for a free quote</h2>
@@ -13,12 +12,11 @@ function FifthSection() {
                         you!
                     </p>
                 </div>
-            <div>
-                <Button classes={"text-zinc-950 bg-white"} isF={false} link={"/#contact"} text={"Contact us"} />
+                <div>
+                    <Button classes={"text-zinc-950 bg-white"} isF={false} link={"/#contact"} text={"Contact us"}/>
+                </div>
             </div>
-            </div>
-        </div>
-    );
+        </div>);
 }
 
 export default FifthSection;

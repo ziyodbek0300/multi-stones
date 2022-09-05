@@ -1,7 +1,7 @@
 import React from 'react';
 import FirstSection from "./FirstSection";
 
-function Products(props) {
+function Products() {
     return (
         <>
             <FirstSection/>
