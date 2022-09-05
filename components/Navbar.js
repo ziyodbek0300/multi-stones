@@ -2,11 +2,20 @@ import Image from "next/image";
 import Logo from '../public/logo.svg';
 import Search from '../public/search.svg';
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
 
 function Navbar() {
-    return (
-        <div className={"p-[1.6rem]"}>
-            <div className={"flex justify-between items-center mx-auto container"}>
+
+    useEffect(() => {
+        AOS.init()
+        AOS.refresh()
+    }, []);
+
+    return (<div className={"p-[1.6rem]"}>
+            <div className={"flex justify-between items-center mx-auto container"} data-aos="fade-down"
+                 data-aos-duration={"600"}>
                 <div className={"w-1/5"}>
                     <Image src={Logo} alt={'Logo'}/>
                 </div>
@@ -33,8 +42,7 @@ function Navbar() {
                     <Image src={Search} alt={'Logo'}/>
                 </div>
             </div>
-        </div>
-    );
+        </div>);
 }
 
 export default Navbar;
