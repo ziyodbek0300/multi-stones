@@ -9,7 +9,7 @@ function AboutUs() {
         <div>
             <div className={"container"}>
                 <div className={"my-5 mb-10"}>
-                    <Image src={Qwerty}/>
+                    <Image src={Qwerty} alt={"stone"} />
                 </div>
                 <div className={"my-5 mb-14"}>
                     <h1 className={"text-center text-40-48-600 uppercase mb-5"}>About us</h1>
