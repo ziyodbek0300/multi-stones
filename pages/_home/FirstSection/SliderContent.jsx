@@ -15,11 +15,11 @@ function SliderContent({index, img1, img}) {
         setTimeout(() => {
             AOS.init()
             AOS.refresh()
-            r.current.setAttribute("data-aos", "flip-left");
-            r.current.setAttribute("data-aos-duration", "1000");
-            r.current.setAttribute("data-aos-delay", "1200");
-            r.current.classList.add("aos-animate");
-            r.current.classList.add("aos-init");
+            // r.current.setAttribute("data-aos", "flip-left");
+            // r.current.setAttribute("data-aos-duration", "1000");
+            // r.current.setAttribute("data-aos-delay", "1200");
+            // r.current.classList.add("aos-animate");
+            // r.current.classList.add("aos-init");
         }, 5000)
     }, [index, img1, img]);
 

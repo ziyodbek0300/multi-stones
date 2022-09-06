@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from "next/image";
-import Image1 from "../../../public/images2/image 6.png";
-import Image2 from "../../../public/images2/image 13.png";
-import Image3 from "../../../public/images2/image 3.png";
-import Image4 from "../../../public/images2/image 4.png";
-import Image5 from "../../../public/images2/image 8.png";
-import Image6 from "../../../public/images2/image 12.png";
-import Image7 from "../../../public/images2/image 5.png";
-import Image8 from "../../../public/images2/image 2.png";
+import Image1 from "../../../public/partners/image 2-1.svg";
+import Image2 from "../../../public/partners/image 3.svg";
+import Image3 from "../../../public/partners/image 4.svg";
+import Image4 from "../../../public/partners/image 5-1.svg";
+import Image5 from "../../../public/partners/image 5.svg";
+import Image6 from "../../../public/partners/image 6.svg";
+import Image7 from "../../../public/partners/image 8-1.svg";
+import Image8 from "../../../public/partners/image 8-2.svg";
 
 function SixthSection() {
     return (

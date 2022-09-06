@@ -13,9 +13,6 @@ function Projects() {
                         sed in vitae scelerisque ut ligula nunc.</p>
                 </div>
                 <FourthSection type={"first"}/>
-                <FourthSection type={"second"}/>
-                <FourthSection type={"first"}/>
-                <FourthSection type={"second"}/>
             </div>
             <ContactsSection/>
         </div>
