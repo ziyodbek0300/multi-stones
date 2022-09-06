@@ -12,6 +12,7 @@ export default function Home() {
                 <title>Multi Stones</title>
                 <meta name="description" content="Multi stone masters"/>
                 <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="/favicon.ico"/>
             </Head>
 
             <main className={styles.main}>
