@@ -131,19 +131,19 @@ a {
 }
 
 .exBg:first-child {
-    background-image: url("../public/stones/Rectangle 8-2.png");
+    background-image: url("/Rectangle 8-2.png");
     background-repeat: repeat;
     background-size: contain;
 }
 
 .exBg:nth-child(2) {
-    background-image: url("../public/stones/Rectangle.png");
+    background-image: url("/Rectangle.png");
     background-repeat: repeat;
     background-size: contain;
 }
 
 .exBg:nth-child(3) {
-    background-image: url("../public/stones/Rectangle 8.png");
+    background-image: url("/Rectangle 8.png");
     background-repeat: repeat;
     background-size: contain;
 }
