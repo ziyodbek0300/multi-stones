@@ -1,0 +1,79 @@
+.exBg .s {
+    transition: .3s;
+}
+
+.exBg:first-child {
+    background-image: url("../public/stones/Rectangle 8-2.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(2) {
+    background-image: url("../public/stones/Rectangle.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(3) {
+    background-image: url("../public/stones/Rectangle 8.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(4) {
+    background-image: url("../public/stones/Rectangle 888.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(5) {
+    background-image: url("../public/stones/Rectangle 8-1.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(6) {
+    background-image: url("../public/stones/Rectangle 88.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(7) {
+    background-image: url("../public/stones/Rectangle 8-2.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(8) {
+    background-image: url("../public/stones/Rectangle.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(9) {
+    background-image: url("../public/stones/Rectangle 8.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(10) {
+    background-image: url("../public/stones/Rectangle 888.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(11) {
+    background-image: url("../public/stones/Rectangle 8-1.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:nth-child(12) {
+    background-image: url("../public/stones/Rectangle 88.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.exBg:hover .s {
+    opacity: 100%;
+}

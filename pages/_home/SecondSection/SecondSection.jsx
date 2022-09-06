@@ -1,10 +1,5 @@
 import React from 'react';
-import Image from "next/image";
-import Stone2 from '../../../public/stones/Rectangle 8-1.png';
-import Stone4 from '../../../public/stones/Rectangle 8.png';
-import Stone5 from '../../../public/stones/Rectangle 88.png';
-import Stone6 from '../../../public/stones/Rectangle 888.png';
-import * as url from "url";
+import './style.css';
 
 function SecondSection() {
     return (
