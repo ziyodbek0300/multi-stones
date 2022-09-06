@@ -24,18 +24,18 @@ function SliderContent({index, img1, img}) {
     }, [index, img1, img]);
 
     return (
-        <div className={"flex absolute justify-end right-0"} style={{top: '5.2rem'}}>
-            <div className={"relative 2xl:w-[95%] xl:[85%] lg:w-[80%]"}>
+        <div className={"flex laptop:flex-row flex-col-reverse laptop:absolute static justify-end right-0"} style={{top: '6rem'}}>
+            <div className={"relative text-center sada lg:w-[100%] laptop:w-[70%]"}>
                 <div data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}
-                     className={"absolute 2xl:bottom-20 xl:bottom-2 lg:bottom-0 left-[] items-center z-50 -left-32"}>
+                     className={"absolute bottom-14 items-center z-40 xl:-left-32 -left-12"}>
                     <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-                        <div className={"cursor-pointer bg-black-custom p-6 gap-5 flex"}>
-                            <div>
+                        <div className={"cursor-pointer bg-black-custom items-center 2xl:p-6 xl:p-4 md:p-2 gap-5 flex"}>
+                            <div className={"flex justify-center items-center"}>
                                 <Image src={img1} alt={"black"}
-                                       className={"rounded"} width={100} height={100}/>
+                                       className={"rounded md:w-[60px] md:h-[60px] xl:w-[100px] xl:h-[100px]"}/>
                             </div>
                             <div className={"text-white"}>
-                                <p className={"18-20-500 mb-2"}>Negresco Granite</p>
+                                <p className={"18-20-500 mb-1"}>Negresco Granite</p>
                                 <p className={"16-20-400 mb-1"}>Color: <span className={"opacity-70"}>Black</span>
                                 </p>
                                 <p className={"16-20-400"}>Style: <span className={"opacity-70"}>Plain</span></p>
@@ -43,8 +43,8 @@ function SliderContent({index, img1, img}) {
                         </div>
                     </Tilt>
                 </div>
-                <div ref={r}>
-                    <Image src={img} alt={"black"} className={""}/>
+                <div ref={r} className={""}>
+                    <Image src={img} alt={"black"} className={"ssss"}/>
                 </div>
             </div>
         </div>

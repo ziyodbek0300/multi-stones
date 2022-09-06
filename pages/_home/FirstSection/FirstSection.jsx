@@ -25,8 +25,8 @@ function FirstSection() {
         AOS.refresh()
     }, [index]);
 
-    return (<div className={"container flex gap-10 items-center"}>
-        <div className={"w-[40%] pb-14 pt-20 mb-28"}>
+    return (<div className={"container md:flex block laptop:flex-row flex-col-reverse gap-10 items-center"}>
+        <div className={"laptop:w-[40%] md:w-[90%] laptop:pb-14 pb-0 md:pt-20 pt-9 laptop:mb-28 mb-10"}>
             <div>
                 <h1 data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"600"}
                     className={"text-50-60-600 mb-6"}>Lets make your ideas
@@ -36,10 +36,9 @@ function FirstSection() {
                     and CT.
                     Best prices and highest quality product.</p>
                 <div data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
-                    <Button text={"Contact us"} classes={"bg-zinc-950 text-center text-white mb-14"} isF={true}
-                            func={buttonF}/>
+                    <Button text={"Contact us"} classes={"bg-zinc-950 text-center text-white mb-14"} isF={false} link={"/#contact"}/>
                 </div>
-                <div className={"flex gap-4"} data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
+                <div className={"laptop:flex hidden gap-4"} data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
                     <div onClick={() => buttonF(0)}
                          className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 active:opacity-60"}></div>
                     <div onClick={() => buttonF(1)}
@@ -49,7 +48,7 @@ function FirstSection() {
                 </div>
             </div>
         </div>
-        <div className={"w-[60%]"}>
+        <div className={"laptop:w-[60%] lg:w-[80%] md:block hidden w-[90%]"}>
             {index === 0 ? (
                 <SliderContent index={index} img1={Black1} img={Black}/>
             ) : index === 1 ? (
@@ -57,6 +56,14 @@ function FirstSection() {
             ) : (
                 <SliderContent index={index} img1={Blue1} img={Blue}/>
             )}
+            <div className={"laptop:hidden justify-center flex gap-4"} data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
+                <div onClick={() => buttonF(0)}
+                     className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 active:opacity-60"}></div>
+                <div onClick={() => buttonF(1)}
+                     className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
+                <div onClick={() => buttonF(2)}
+                     className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
+            </div>
         </div>
 
     </div>);

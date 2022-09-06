@@ -5,11 +5,11 @@ import Button from "../../../components/Button";
 
 function ThirdSection() {
     return (
-        <div className={"flex container items-center"}>
-            <div className={"w-full pb-20"}>
+        <div className={"flex lg:flex-row flex-col container items-center"}>
+            <div className={"w-full lg:pb-20 pb-8 text-center"}>
                 <Image src={AboutUs} className={"w-full"} alt={"about-us"}/>
             </div>
-            <div className={"w-full pl-20 pb-20"}>
+            <div className={"w-full lg:pl-20 lg:pb-20 pb-10"}>
                 <h2 className={"text-40-48-600 uppercase mb-4"}>About Us</h2>
                 <p className={"text-gray-650 mb-3"}>Taking more than 28 years of experience and knowledge from many areas of the stone industry into your
                     home and business.</p>

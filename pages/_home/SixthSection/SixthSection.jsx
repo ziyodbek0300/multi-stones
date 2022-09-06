@@ -11,17 +11,17 @@ import Image8 from "../../../public/images2/image 2.png";
 
 function SixthSection() {
     return (
-        <div className={"py-28"}>
+        <div className={"lg:py-28 py-12"}>
             <h2 className={"text-40-48-600 uppercase text-center mb-12"}>Our partners</h2>
-            <div className={"grid grid-cols-4 container gap-8"}>
-                <Image src={Image1} alt={"partner1"} className={"w-full"} />
-                <Image src={Image2} alt={"partner1"} className={"w-full"} />
-                <Image src={Image3} alt={"partner1"} className={"w-full"} />
-                <Image src={Image4} alt={"partner1"} className={"w-full"} />
-                <Image src={Image5} alt={"partner1"} className={"w-full"} />
-                <Image src={Image6} alt={"partner1"} className={"w-full"} />
-                <Image src={Image7} alt={"partner1"} className={"w-full"} />
-                <Image src={Image8} alt={"partner1"} className={"w-full"} />
+            <div className={"grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 container gap-8"}>
+                <Image src={Image1} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image2} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image3} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image4} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image5} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image6} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image7} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image src={Image8} alt={"partner1"} className={"lg:w-full w-auto"} />
             </div>
         </div>
     );

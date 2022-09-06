@@ -9,7 +9,7 @@ import Link from "next/link";
 function Footer() {
     return (<div className={"bg-zinc-950 text-gray-350"}>
         <div className={"pt-12 pb-16"}>
-            <div className={"flex lg:flex-row flex-col justify-between gap-20 container"}>
+            <div className={"flex lg:flex-row flex-col justify-between lg:gap-20 gap-7 container"}>
                 <div className={"w-full"}>
                     <div className={"mb-4"}>
                         <Link href={"/"}><Image src={Logo} alt={"Logo"}/></Link>
@@ -20,37 +20,51 @@ function Footer() {
                 <div className={"w-full"}>
                     <p className={"text-white text-16-22-600 mb-4"}>About us</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
-                        <li className={"mb-3"}>Products</li>
-                        <li className={"mb-3"}>Projects</li>
-                        <li className={"mb-3"}>Partners</li>
+                        <li className={"mb-3"}>
+                            <Link href={"/products"}>Products</Link>
+                        </li>
+                        <li className={"mb-3"}>
+                            <Link href={"/projects"}>Projects</Link>
+                        </li>
+                        <li className={"mb-3"}>
+                            <Link href={"#partners"}>Partners</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className={"w-full"}>
                     <p className={"text-white text-16-22-600 mb-4"}>Stones</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
-                        <li className={"mb-3"}>Marble</li>
-                        <li className={"mb-3"}>Quartz</li>
-                        <li className={"mb-3"}>Onyx</li>
+                        <li className={"mb-3"}>
+                            <Link href={"/projects"}>Marble</Link>
+                        </li>
+                        <li className={"mb-3"}>
+                            <Link href={"/projects"}>Quartz</Link>
+                        </li>
+                        <li className={"mb-3"}>
+                            <Link href={"/projects"}>Onyx</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className={"w-full"}>
                     <p className={"text-white text-16-22-600 mb-4"}>Contacts</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
                         <li className={"footer-side mb-3"}>
-                            <span>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</span>
+                            <a href={"https://www.google.com/maps/place/8010+Sunport+Dr+STE+122,+Orlando,+FL+32809,+USA/@28.4503038,-81.3777283,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77cfcf51958df:0xa3980848743cd73e!8m2!3d28.4502991!4d-81.3755396"}
+                               target={"_"}>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <span>contact@comston.io</span>
+                            <a href={"mailto:contact@comston.io"}>contact@comston.io</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <span>+1 (407) 683-5894</span>
+                            <a href={"tel:+14076835894"}>+1 (407) 683-5894</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div className={'border-t border-[#636363] py-8'}>
-            <div className={"container flex justify-between items-center"}>
+            <div
+                className={"container flex lg:flex-row flex-col-reverse gap-3 lg:text-left text-center justify-between items-center"}>
                 <p className={"text-16-22-400"}>Copyright © {new Date().getFullYear()} Ribeiro Stones – All Rights
                     Reserved.</p>
                 <div className={"flex gap-5"}>
