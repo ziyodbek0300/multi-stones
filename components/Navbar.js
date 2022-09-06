@@ -26,20 +26,20 @@ function Navbar() {
             </div>
             <div className={"w-3/5"}>
                 <ul className={!open ? "p-0 md:flex hidden m-0 justify-center" : "md:static absolute top-full w-full md:backdrop-blur-0 backdrop-blur-2xl md:bg-transparent bg-white/100 left-0 md:gap-0 gap-8 flex md:flex-row flex-col py-5 md:flex m-0 justify-center"}>
-                    <li className={'mx-5'}>
-                        <Link onClick={() => setOpen(false)} href={"/"}>Home</Link>
+                    <li onClick={() => setOpen(false)} className={'mx-5'}>
+                        <Link href={"/"}>Home</Link>
                     </li>
-                    <li className={'mx-5'}>
-                        <Link onClick={() => setOpen(false)} href={"/products"}>Products</Link>
+                    <li onClick={() => setOpen(false)} className={'mx-5'}>
+                        <Link href={"/products"}>Products</Link>
                     </li>
-                    <li className={'mx-5'}>
-                        <Link onClick={() => setOpen(false)} href={"/about-us"}>About us</Link>
+                    <li onClick={() => setOpen(false)} className={'mx-5'}>
+                        <Link href={"/about-us"}>About us</Link>
                     </li>
-                    <li className={'mx-5'}>
-                        <Link onClick={() => setOpen(false)} href={"/projects"}>Projects</Link>
+                    <li onClick={() => setOpen(false)} className={'mx-5'}>
+                        <Link href={"/projects"}>Projects</Link>
                     </li>
-                    <li className={'mx-5'}>
-                        <Link onClick={() => setOpen(false)} href={"/contacts"}>Contacts</Link>
+                    <li onClick={() => setOpen(false)} className={'mx-5'}>
+                        <Link href={"/contacts"}>Contacts</Link>
                     </li>
                 </ul>
             </div>
