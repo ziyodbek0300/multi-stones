@@ -11,7 +11,7 @@ function FirstSection() {
     return (<div className={"container"}>
         <div className={"flex justify-between items-center py-14"}>
             <h2 className={"text-40-48-600 uppercase"}>Products</h2>
-            <p className={"text-16-20-500 uppercase text-gray-650"}>show more</p>
+            <p className={"text-16-20-500 uppercase text-gray-650"}></p>
         </div>
         <div className={"grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 pb-28"}>
             <div className={"relative pb-0 mb-0 h-96 exBg"}>

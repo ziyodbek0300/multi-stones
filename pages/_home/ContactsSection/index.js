@@ -59,7 +59,7 @@ function ContactsSection() {
             <div className={"w-full lg:pl-20 pb-20"}>
                 <div id={"contact"}></div>
                 <form onSubmit={handleSubmit}>
-                    <h2 className={"text-40-48-600 uppercase mb-4"}>Contacts</h2>
+                    <h2 className={"text-40-48-600 uppercase mb-4"}>Contact us</h2>
                     <p className={"text-gray-650 mb-3"}>You can also reach out to us here online by filling out the
                         contact
                         form below provided. Rest assured that our friendly staff will be in touch with you in no

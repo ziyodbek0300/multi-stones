@@ -5,13 +5,16 @@ import Stone2 from '../../../public/images2/5.png';
 import Stone3 from '../../../public/images2/1.png';
 import Stone4 from '../../../public/images2/3.png';
 import Stone6 from '../../../public/images2/4.png';
+import Link from "next/link";
 
 function FourthSection() {
     return (
         <div className={"container"}>
             <div className={"flex justify-between items-center lg:py-14 py-7"}>
                 <h2 className={"text-40-48-600 uppercase"}>Projects</h2>
-                <p className={"text-16-20-500 uppercase text-gray-650"}>show more</p>
+                <p className={"text-16-20-500 uppercase text-gray-650"}>
+                    <Link href={"/project"}>show more</Link>
+                </p>
             </div>
             <div className={"grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7 pb-28"}>
                 <div className={"relative mx-auto row-start-1 row-end-3 card-projects overflow-hidden"}>

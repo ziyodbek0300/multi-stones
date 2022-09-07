@@ -6,9 +6,7 @@ import Stone4 from "../../public/projects/3.png";
 import Stone6 from "../../public/projects/4.png";
 import Stone2 from "../../public/projects/5.png";
 import Stone7 from "../../public/projects/6.png";
-import Stone8 from "../../public/projects/2.png";
 import Stone9 from "../../public/projects/9.png";
-import Stone0 from "../../public/projects/7.png";
 
 function FourthSection({type}) {
     return (

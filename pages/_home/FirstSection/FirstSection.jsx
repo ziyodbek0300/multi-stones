@@ -36,15 +36,17 @@ function FirstSection() {
                     and CT.
                     Best prices and highest quality product.</p>
                 <div data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
-                    <Button text={"Contact us"} classes={"bg-zinc-950 text-center text-white mb-14"} isF={false} link={"/#contact"}/>
+                    <Button text={"Contact us"} classes={"bg-zinc-950 text-center text-white mb-14"} isF={false}
+                            link={"/#contact"}/>
                 </div>
-                <div className={"laptop:flex hidden gap-4"} data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
+                <div className={"laptop:flex hidden gap-4"} data-aos="fade-up" data-aos-duration={"600"}
+                     data-aos-delay={"1200"}>
                     <div onClick={() => buttonF(0)}
-                         className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 active:opacity-60"}></div>
+                         className={index === 0 ? "h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 bg-zinc-950 active:opacity-60" : "h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
                     <div onClick={() => buttonF(1)}
-                         className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
+                         className={index === 1 ? "h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 bg-zinc-950 active:opacity-60" : "h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
                     <div onClick={() => buttonF(2)}
-                         className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
+                         className={index === 2 ? "h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 bg-zinc-950 active:opacity-60" : "h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 active:opacity-60"}></div>
                 </div>
             </div>
         </div>
@@ -56,7 +58,8 @@ function FirstSection() {
             ) : (
                 <SliderContent index={index} img1={Blue1} img={Blue}/>
             )}
-            <div className={"laptop:hidden justify-center flex gap-4"} data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
+            <div className={"laptop:hidden justify-center flex gap-4"} data-aos="fade-up" data-aos-duration={"600"}
+                 data-aos-delay={"1200"}>
                 <div onClick={() => buttonF(0)}
                      className={"h-4 w-4 hover:bg-zinc-950 transition border border-zinc-950 bg-zinc-950 active:opacity-60"}></div>
                 <div onClick={() => buttonF(1)}

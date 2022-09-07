@@ -46,7 +46,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className={"w-full"}>
-                    <p className={"text-white text-16-22-600 mb-4"}>Contacts</p>
+                    <p className={"text-white text-16-22-600 mb-4"}>Contact Us</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
                         <li className={"footer-side mb-3"}>
                             <a href={"https://www.google.com/maps/place/8010+Sunport+Dr+STE+122,+Orlando,+FL+32809,+USA/@28.4503038,-81.3777283,17z/data=!3m1!4b1!4m5!3m4!1s0x88e77cfcf51958df:0xa3980848743cd73e!8m2!3d28.4502991!4d-81.3755396"}
@@ -56,7 +56,7 @@ function Footer() {
                             <a href={"mailto:contact@comston.io"}>contact@comston.io</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <a href={"tel:+14076835894"}>+1 (407) 683-5894</a>
+                            <a href={"tel:3323222244"}>(332) 322-2244</a>
                         </li>
                     </ul>
                 </div>

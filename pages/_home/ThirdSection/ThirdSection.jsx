@@ -33,7 +33,7 @@ function ThirdSection() {
                         <p className={"text-16-22-400"}>Residential</p>
                     </div>
                 </div>
-                <Button isF={true} classes={"bg-zinc-950 text-center text-white"} text={"Learn more"} />
+                <Button isF={false} link={'/about-us'} classes={"bg-zinc-950 text-center text-white"} text={"Learn more"} />
             </div>
         </div>
     );

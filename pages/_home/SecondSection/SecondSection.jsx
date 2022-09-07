@@ -1,11 +1,14 @@
 import React from 'react';
+import Link from "next/link";
 
 function SecondSection() {
     return (
         <div className={"container"}>
             <div className={"flex justify-between items-center py-14 pt-0"}>
                 <h2 className={"text-40-48-600 uppercase"}>Products</h2>
-                <p className={"text-16-20-500 uppercase text-gray-650"}>show more</p>
+                <p className={"text-16-20-500 uppercase text-gray-650 cursor-pointer"}>
+                    <Link href={"/products"}>show more</Link>
+                </p>
             </div>
             <div className={"grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-7 pb-28"}>
                 <div className={"relative pb-0 mb-0 h-96 exBg"}>
