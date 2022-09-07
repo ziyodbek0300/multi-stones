@@ -14,14 +14,14 @@ function SixthSection() {
         <div className={"lg:py-28 py-12"}>
             <h2 className={"text-40-48-600 uppercase text-center mb-12"}>Our partners</h2>
             <div className={"grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 container gap-8"}>
-                <Image src={Image1} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image2} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image3} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image4} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image5} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image6} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image7} alt={"partner1"} className={"lg:w-full w-auto"} />
-                <Image src={Image8} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"600"} src={Image1} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"700"} src={Image2} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"800"} src={Image3} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"900"} src={Image4} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"600"} src={Image5} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"700"} src={Image6} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"800"} src={Image7} alt={"partner1"} className={"lg:w-full w-auto"} />
+                <Image data-aos="fade-up" data-aos-duration={"900"} src={Image8} alt={"partner1"} className={"lg:w-full w-auto"} />
             </div>
         </div>
     );

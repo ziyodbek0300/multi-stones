@@ -36,7 +36,7 @@ function SliderContent({index, img1, img}) {
                         </div>
                     </Tilt>
                 </div>
-                <div className={""}>
+                <div data-aos="flip-left" data-aos-duration={"600"}  className={""}>
                     <Image src={img} alt={"black"} className={"ssss"}/>
                 </div>
             </div>

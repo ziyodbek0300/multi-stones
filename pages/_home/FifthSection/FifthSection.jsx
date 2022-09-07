@@ -1,8 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Button from "../../../components/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function FifthSection() {
-    return (<div className={"fifthBg py-10"}>
+
+    useEffect(() => {
+        AOS.init()
+        AOS.refresh()
+    }, []);
+
+    return (<div className={"fifthBg py-10"} data-aos="fade-up" data-aos-duration={"600"}>
             <div className={"container md:flex items-center lg:gap-20 md:gap-8"}>
                 <div className={"w-full"}>
                     <h2 className={"text-40-48-600 text-white mb-4"}>Contact us for a free quote</h2>
@@ -12,7 +20,7 @@ function FifthSection() {
                         you!
                     </p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration={"700"}>
                     <Button classes={"text-zinc-950 bg-white w-full"} isF={false} link={"/#contact"} text={"Contact us"}/>
                 </div>
             </div>
