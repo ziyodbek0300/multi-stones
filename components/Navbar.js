@@ -6,8 +6,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import {useEffect, useState} from "react";
 import Menu from "../public/menu.svg";
+import {useRouter} from "next/router";
 
 function Navbar() {
+    const router = useRouter();
+    console.log(router.asPath);
     const [open, setOpen] = useState(false);
 
     const toggle = () => {
