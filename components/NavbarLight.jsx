@@ -21,7 +21,7 @@ function NavbarLight() {
         AOS.refresh()
     }, []);
 
-    return (<div className={"md:px-[1.6rem]  sticky top-0 z-50"}>
+    return (<div className={"md:px-[1.6rem] bg-zinc-950/20 sticky top-0 z-50"}>
         <div className={"flex justify-between items-center mx-auto container"}>
             <Link href={"/"}>
                 <div className={"w-2/5"}>
