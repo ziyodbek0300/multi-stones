@@ -8,7 +8,7 @@ import {useEffect, useState} from "react";
 import Menu from "../public/menu.svg";
 import {useRouter} from "next/router";
 
-function Navbar() {
+function NavbarLight() {
     const router = useRouter();
     const [open, setOpen] = useState(false);
 
@@ -21,7 +21,7 @@ function Navbar() {
         AOS.refresh()
     }, []);
 
-    return (<div className={router.asPath !== "/products" ? "md:px-[1.6rem] backdrop-blur-xl bg-white/90 sticky top-0 z-50" : "hidden"}>
+    return (<div className={"md:px-[1.6rem]  sticky top-0 z-50"}>
         <div className={"flex justify-between items-center mx-auto container"}>
             <Link href={"/"}>
                 <div className={"w-2/5"}>
@@ -33,16 +33,20 @@ function Navbar() {
                     <li onClick={() => setOpen(false)} className={router.asPath === '/' ? 'font-bold mx-5' : 'mx-5'}>
                         <Link href={"/"}>Home</Link>
                     </li>
-                    <li onClick={() => setOpen(false)} className={router.asPath === '/products' ? 'font-bold mx-5' : 'mx-5'}>
+                    <li onClick={() => setOpen(false)}
+                        className={router.asPath === '/products' ? 'font-bold mx-5' : 'mx-5'}>
                         <Link href={"/products"}>Products</Link>
                     </li>
-                    <li onClick={() => setOpen(false)} className={router.asPath === '/about-us' ? 'font-bold mx-5' : 'mx-5'}>
+                    <li onClick={() => setOpen(false)}
+                        className={router.asPath === '/about-us' ? 'font-bold mx-5' : 'mx-5'}>
                         <Link href={"/about-us"}>About us</Link>
                     </li>
-                    <li onClick={() => setOpen(false)} className={router.asPath === '/projects' ? 'font-bold mx-5' : 'mx-5'}>
+                    <li onClick={() => setOpen(false)}
+                        className={router.asPath === '/projects' ? 'font-bold mx-5' : 'mx-5'}>
                         <Link href={"/projects"}>Projects</Link>
                     </li>
-                    <li onClick={() => setOpen(false)} className={router.asPath === '/contacts' ? 'font-bold ml-5 text-end' : 'ml-5 text-end'}>
+                    <li onClick={() => setOpen(false)}
+                        className={router.asPath === '/contacts' ? 'font-bold ml-5 text-end' : 'ml-5 text-end'}>
                         <Link href={"/contacts"}>Contact us</Link>
                     </li>
                 </ul>
@@ -57,4 +61,4 @@ function Navbar() {
     </div>);
 }
 
-export default Navbar;
+export default NavbarLight;
