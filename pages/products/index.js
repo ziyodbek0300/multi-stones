@@ -26,15 +26,16 @@ function Products() {
     }, []);
 
     return (<>
-        <div className={"md:px-[1.6rem] backdrop-blur-xl bg-white/90 sticky top-0 z-50"} data-aos={"fade-up"}
+        <div className={"some-bg"}>
+        <div className={"md:px-[1.6rem] fixed w-full bg-transparent top-0 z-50"} data-aos={"fade-up"}
             data-aos-duration={"1000"}>
             <div className={"flex justify-between items-center mx-auto container"}>
                 <Link href={"/"}>
                     <div className={"w-2/5"}>
-                        <Image src={Logo} alt={'Logo'} height={"88"}/>
+                        <Image src={LogoWhite} alt={'Logo'} height={"88"}/>
                     </div>
                 </Link>
-                <div className={"w-3/5"}>
+                <div className={"w-3/5 text-white"}>
                     <ul className={!open ? "p-0 md:flex hidden m-0 justify-end" : "md:static absolute top-full w-full md:backdrop-blur-0 backdrop-blur-2xl md:bg-transparent bg-white/100 left-0 md:gap-0 gap-8 flex md:flex-row flex-col py-5 md:flex m-0 justify-end"}>
                         <li onClick={() => setOpen(false)}
                             className={router.asPath === '/' ? 'font-bold mx-5' : 'mx-5'}>
@@ -66,7 +67,6 @@ function Products() {
                 </div>
             </div>
         </div>
-        <div className={"some-bg"}>
             <Header/>
         </div>
         <SecondSection/>
