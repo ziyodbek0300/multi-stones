@@ -7,6 +7,7 @@ import FifthSection from "./FifthSection/FifthSection";
 import SixthSection from "./SixthSection/SixthSection";
 import ContactsSection from "./ContactsSection";
 import WhatWeDo from "./WhatWeDo";
+import Testimonials from "./Testimonials";
 
 function HomePage() {
     return (<div>
@@ -15,6 +16,7 @@ function HomePage() {
         <ThirdSection/>
         <WhatWeDo/>
         <FourthSection/>
+        <Testimonials/>
         <FifthSection/>
         <SixthSection/>
         <ContactsSection/>

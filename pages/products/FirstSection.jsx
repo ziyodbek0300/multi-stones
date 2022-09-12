@@ -8,8 +8,10 @@ import Stone5 from '../../public/stones/Rectangle 88.png';
 import Stone6 from '../../public/stones/Rectangle 888.png';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {useRouter} from "next/router";
 
 function FirstSection() {
+    const router = useRouter();
 
     useEffect(() => {
         AOS.init()
@@ -22,7 +24,7 @@ function FirstSection() {
             <p className={"text-16-20-500 uppercase text-gray-650"}></p>
         </div>
         <div className={"grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-7 pb-28"}>
-            <div data-aos="fade-up" data-aos-duration={"600"} className={"relative pb-0 mb-0 h-[400px] py-20 exBg"}>
+            <div onClick={() => router.push('/products/marble')} data-aos="fade-up" data-aos-duration={"600"} className={"relative pb-0 mb-0 h-[400px] py-20 exBg"}>
                 <div className={"bg-tanerofka s opacity-0 absolute h-1/2 bottom-0 w-full z-40"}></div>
                 <div className={"absolute s opacity-0 z-40 bottom-0 p-6"}>
                     <h3 className={"text-white text-24-30-600 mb-2"}>Some Text</h3>
