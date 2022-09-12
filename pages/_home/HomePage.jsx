@@ -6,12 +6,14 @@ import FourthSection from "./FourthSection/FourthSection";
 import FifthSection from "./FifthSection/FifthSection";
 import SixthSection from "./SixthSection/SixthSection";
 import ContactsSection from "./ContactsSection";
+import WhatWeDo from "./WhatWeDo";
 
 function HomePage() {
     return (<div>
         <FirstSection/>
         <SecondSection/>
         <ThirdSection/>
+        <WhatWeDo/>
         <FourthSection/>
         <FifthSection/>
         <SixthSection/>
