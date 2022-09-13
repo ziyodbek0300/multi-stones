@@ -9,9 +9,10 @@ import Marble2 from "../../public/stones/marble/03.png";
 function ProductDetail() {
     const router = useRouter();
     const name = router.query.id;
+    console.log(name)
 
     const stones = {
-        "marble": {
+        marble: {
             title: "Marble",
             text1: "Our inventory is always changing. Contact your location about specific colors and finishes.",
             size: "60x126",
