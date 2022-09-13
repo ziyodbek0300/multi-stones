@@ -38,32 +38,32 @@ function ProductDetail() {
                         <Image src={Marble} layout={"responsive"} alt={"Marble"}/>
                     </div>
                     <div className={"w-full"}>
-                        <h3 className={"mb-4 text-24-30-600"}>{stones[name].title}</h3>
-                        <p className={"text-16-22-400 text-gray-650 mb-2"}>{stones[name].text1}</p>
+                        <h3 className={"mb-4 text-24-30-600"}>{stones[name]?.title}</h3>
+                        <p className={"text-16-22-400 text-gray-650 mb-2"}>{stones[name]?.text1}</p>
                         <div className={"flex items-end mb-4"}>
                             <p className={"text-16-20-400"}>Size</p>
                             <div className={"border-b border-dotted border-gray-650 w-full"}></div>
-                            <p className={"text-16-20-600"}>{stones[name].size}</p>
+                            <p className={"text-16-20-600"}>{stones[name]?.size}</p>
                         </div>
                         <div className={"flex items-end mb-4"}>
                             <p className={"text-16-20-400"}>Finishes</p>
                             <div className={"border-b border-dotted border-gray-650 w-full"}></div>
-                            <p className={"text-16-20-600 text-right"}>{stones[name].finishes}</p>
+                            <p className={"text-16-20-600 text-right"}>{stones[name]?.finishes}</p>
                         </div>
                         <div className={"flex items-end mb-4 capitalize"}>
                             <p className={"text-16-20-400"}>Style</p>
                             <div className={"border-b border-dotted border-gray-650 w-full"}></div>
-                            <p className={"text-16-20-600"}>{stones[name].style}</p>
+                            <p className={"text-16-20-600"}>{stones[name]?.style}</p>
                         </div>
                         <div className={"flex items-end mb-4 capitalize"}>
                             <p className={"text-16-20-400"}>Color</p>
                             <div className={"border-b border-dotted border-gray-650 w-full"}></div>
-                            <p className={"text-16-20-600"}>{stones[name].color}</p>
+                            <p className={"text-16-20-600"}>{stones[name]?.color}</p>
                         </div>
                         <div className={"flex items-end mb-5 capitalize"}>
                             <p className={"text-16-20-400"}>Installation</p>
                             <div className={"border-b border-dotted border-gray-650 w-full"}></div>
-                            <p className={"text-16-20-600 text-green-450"}>{stones[name].installation}</p>
+                            <p className={"text-16-20-600 text-green-450"}>{stones[name]?.installation}</p>
                         </div>
                         <div className={"flex items-end gap-3 capitalize"}>
                             <div>
@@ -80,7 +80,7 @@ function ProductDetail() {
                 </div>
                 <div className={"mb-24"}>
                     <p className={"text-24-30-600 mb-4"}>Description</p>
-                    <p className={"text-16-20-400 text-gray-650"}>{stones[name].description}</p>
+                    <p className={"text-16-20-400 text-gray-650"}>{stones[name]?.description}</p>
                 </div>
             </div>
         </div>
