@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
-import Image1 from "/whatwedo/image 21.png";
-import Image2 from "/whatwedo/image 21-1.png";
-import Image3 from "/whatwedo/image 21-2.png";
+import Image1 from "../../../public/whatwedo/image 21.png";
+import Image2 from "../../../public/whatwedo/image 21-1.png";
+import Image3 from "../../../public/whatwedo/image 21-2.png";
 import Button from "../../../components/Button";
 
 function WhatWeDo(props) {
