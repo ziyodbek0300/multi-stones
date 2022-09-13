@@ -122,7 +122,7 @@ function Testimonials() {
                                 Ribeiro Stones are the most honest and amazing fabricators to work with. Their quality
                                 is top notch. They help my business every time I am designing a kitchen. They are loyal
                                 to their customers and recommend them for all of your fabrication needs. Their staff are
-                                wonderful."
+                                wonderful.
                             </p>
                             <div className={"flex items-center gap-4"}>
                                 <div>
@@ -142,7 +142,7 @@ function Testimonials() {
                                 Ribeiro Stones are the most honest and amazing fabricators to work with. Their quality
                                 is top notch. They help my business every time I am designing a kitchen. They are loyal
                                 to their customers and recommend them for all of your fabrication needs. Their staff are
-                                wonderful."
+                                wonderful.
                             </p>
                             <div className={"flex items-center gap-4"}>
                                 <div>
