@@ -28,31 +28,31 @@ function FourthSection() {
                 <div data-aos="fade-up" data-aos-duration={"600"} className={"relative mx-auto row-start-1 row-end-3 card-projects overflow-hidden"}>
                     <Image src={Stone3} className={"hover:brightness-50 transition-opacity image"} style={{transition: '.3s ease-in-out'}} alt={"stone-dark"}/>
                     <div className={"absolute pr-text z-40 -top-full h-full w-full flex justify-center items-center p-6"}>
-                        <h3 className={"text-white text-24-30-600 mb-2"}>Some Text</h3>
+                        <h3 className={"text-white text-24-30-600 mb-2"}>Grand Mir Hotel Restaurant</h3>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration={"800"} className={"relative mx-auto card-projects overflow-hidden"}>
                     <Image src={Stone1} className={"hover:brightness-50 transition-opacity image"} style={{transition: '.3s ease-in-out'}} alt={"stone-dark"}/>
                     <div className={"absolute pr-text z-40 -top-full h-full w-full flex justify-center items-center p-6"}>
-                        <h3 className={"text-white text-24-30-600 mb-2"}>Some Text</h3>
+                        <h3 className={"text-white text-24-30-600 mb-2"}>Fountains for multiple locations of Hyatt Regency</h3>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration={"900"} className={"relative mx-auto card-projects overflow-hidden"}>
                     <Image src={Stone4} className={"hover:brightness-50 transition-opacity image"} style={{transition: '.3s ease-in-out'}} alt={"stone-dark"}/>
                     <div className={"absolute pr-text z-40 -top-full h-full w-full flex justify-center items-center p-6"}>
-                        <h3 className={"text-white text-24-30-600 mb-2"}>Some Text</h3>
+                        <h3 className={"text-white text-24-30-600 mb-2"}>The Hub apartment complex</h3>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration={"800"} className={"relative mx-auto card-projects overflow-hidden"}>
                     <Image src={Stone6} className={"hover:brightness-50 transition-opacity image"} style={{transition: '.3s ease-in-out'}} alt={"stone-dark"}/>
                     <div className={"absolute pr-text z-40 -top-full h-full w-full flex justify-center items-center p-6"}>
-                        <h3 className={"text-white text-24-30-600 mb-2"}>Some Text</h3>
+                        <h3 className={"text-white text-24-30-600 mb-2"}>Anonymous customer</h3>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration={"900"} className={"relative mx-auto card-projects overflow-hidden"}>
                     <Image src={Stone2} className={"hover:brightness-50 transition-opacity image"} style={{transition: '.3s ease-in-out'}} alt={"stone-dark"}/>
                     <div className={"absolute pr-text z-40 -top-full h-full w-full flex justify-center items-center p-6"}>
-                        <h3 className={"text-white text-24-30-600 mb-2"}>Some Text</h3>
+                         <h3 className={"text-white text-24-30-600 mb-2"}>IQ Luxury apartment complex</h3>
                     </div>
                 </div>
             </div>

@@ -17,9 +17,7 @@ function SecondSection(props) {
             <div className={"mt-28"}>
                 <div className={"container"}>
                     <h2 className={"text-center text-40-48-600 mb-4"}>Applications</h2>
-                    <p className={"mx-auto lg:w-2/5 text-center"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Egestas congue sed id pretium duis libero.
-                        Sed orci non id.</p>
+                    <p className={"mx-auto lg:w-2/5 text-center"}>Check out our wide range of stone applications for your home or office.</p>
                 </div>
                 <div className={"pt-14"}>
                     <div className="lg:flex-row flex-col flex gap-3 container">

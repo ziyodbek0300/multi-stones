@@ -28,8 +28,8 @@ function SliderContent({index, img1, img}) {
                                        className={"rounded md:w-[60px] md:h-[60px] xl:w-[100px] xl:h-[100px]"}/>
                             </div>
                             <div className={"text-white"}>
-                                <p className={"18-20-500 mb-1"}>Negresco Granite</p>
-                                <p className={"16-20-400 mb-1"}>Color: <span className={"opacity-70"}>Black</span>
+                                <p className={"18-20-500 mb-1"}>White Granite</p>
+                                <p className={"16-20-400 mb-1"}>Color: <span className={"opacity-70"}>White</span>
                                 </p>
                                 <p className={"16-20-400"}>Style: <span className={"opacity-70"}>Plain</span></p>
                             </div>
