@@ -1,6 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Button from "../../../components/Button";
-import Image from "next/image";
 import Black from '../../../public/stones/1.png';
 import Blue from '../../../public/stones/2.png';
 import Light from '../../../public/stones/3.png';
@@ -31,7 +30,8 @@ function FirstSection() {
                 <h1 data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"600"}
                     className={"text-50-60-600 mb-6"}>Put our expert stone masters to work for you</h1>
                 <p data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"600"}
-                   className={"text-16-22-400 text-gray-650 mb-10"}>Our services include flooring, countertops, wall cladding and any other custom projects involving stones like granite, marble and quartz. </p>
+                   className={"text-16-22-400 text-gray-650 mb-10"}>Our services include flooring, countertops, wall
+                    cladding and any other custom projects involving stones like granite, marble and quartz. </p>
                 <div data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
                     <Button text={"Contact us"} classes={"bg-zinc-950 text-center text-white mb-14"} isF={false}
                             link={"/#contact"}/>
@@ -49,11 +49,11 @@ function FirstSection() {
         </div>
         <div className={"laptop:w-[60%] lg:w-[80%] md:block hidden w-[90%]"}>
             {index === 0 ? (
-                <SliderContent index={index} text1={""} text2={""} text3={""} img1={Black1} img={Black}/>
+                <SliderContent index={index} text1={"1"} text2={"1"} text3={"1"} img1={Black1} img={Black}/>
             ) : index === 1 ? (
-                <SliderContent index={index} text1={""} text2={""} text3={""} img1={Light1} img={Light}/>
+                <SliderContent index={index} text1={"2"} text2={"2"} text3={"2"} img1={Light1} img={Light}/>
             ) : (
-                <SliderContent index={index} text1={""} text2={""} text3={""} img1={Blue1} img={Blue}/>
+                <SliderContent index={index} text1={"3"} text2={"3"} text3={"3"} img1={Blue1} img={Blue}/>
             )}
             <div className={"laptop:hidden justify-center flex gap-4"} data-aos="fade-up" data-aos-duration={"600"}
                  data-aos-delay={"1200"}>

@@ -18,7 +18,7 @@ function ContactsSection() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        
+
 
         const chatIds = [10435088226, 631087023, 1152682790];
         let text = `👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}`;
@@ -82,12 +82,12 @@ function ContactsSection() {
                         </div>
                         <div className={"mb-4 lg:w-72"}>
                             <label data-aos="fade-up" data-aos-duration={"600"} htmlFor="name" id={"email"} className={"mb-2 block"}>Email</label>
-                            <input data-aos="fade-up" data-aos-duration={"600"} type="email" id={"email"} required className={"border border-gray-350 p-3 w-full"}
+                            <input pattern={"^([a-z0-9_\\.-]+)@([\\da-z\\.-]+)\\.([a-z\\.]{2,6})$"} data-aos="fade-up" data-aos-duration={"600"} type="email" id={"email"} required className={"border border-gray-350 p-3 w-full"}
                                    placeholder={"someone@example.com"}/>
                         </div>
                         <div className={"mb-4 lg:w-72"}>
                             <label data-aos="fade-up" data-aos-duration={"600"} htmlFor="phone" className={"mb-2 block"}>Number</label>
-                            <input data-aos="fade-up" data-aos-duration={"600"} type="phone" id={"phone"} required className={"border border-gray-350 p-3 w-full"}
+                            <input pattern={"^(?:\\d{10,12}|\\+\\d{10,12}|\\w+@\\w+\\.\\w{2,4})$"} data-aos="fade-up" data-aos-duration={"600"} type="phone" id={"phone"} required className={"border border-gray-350 p-3 w-full"}
                                    placeholder={"+1 555 555 5555"}/>
                         </div>
                         <div className={"mb-4 lg:w-72 flex items-start"}>
