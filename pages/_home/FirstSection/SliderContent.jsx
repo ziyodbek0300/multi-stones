@@ -4,7 +4,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function SliderContent({index, img1, img}) {
+function SliderContent({index, img1, img, text1, text2, text3}) {
 
     useEffect(() => {
         AOS.init()
@@ -28,10 +28,10 @@ function SliderContent({index, img1, img}) {
                                        className={"rounded md:w-[60px] md:h-[60px] xl:w-[100px] xl:h-[100px]"}/>
                             </div>
                             <div className={"text-white"}>
-                                <p className={"18-20-500 mb-1"}>Negresco Granite</p>
-                                <p className={"16-20-400 mb-1"}>Color: <span className={"opacity-70"}>Black</span>
+                                <p className={"18-20-500 mb-1"}>{text1}</p>
+                                <p className={"16-20-400 mb-1"}>Color: <span className={"opacity-70"}>{text2}</span>
                                 </p>
-                                <p className={"16-20-400"}>Style: <span className={"opacity-70"}>Plain</span></p>
+                                <p className={"16-20-400"}>Style: <span className={"opacity-70"}>{text3}</span></p>
                             </div>
                         </div>
                     </Tilt>

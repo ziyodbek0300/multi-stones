@@ -52,11 +52,11 @@ function FirstSection() {
         </div>
         <div className={"laptop:w-[60%] lg:w-[80%] md:block hidden w-[90%]"}>
             {index === 0 ? (
-                <SliderContent index={index} img1={Black1} img={Black}/>
+                <SliderContent index={index} text1={""} text2={""} text3={""} img1={Black1} img={Black}/>
             ) : index === 1 ? (
-                <SliderContent index={index} img1={Light1} img={Light}/>
+                <SliderContent index={index} text1={""} text2={""} text3={""} img1={Light1} img={Light}/>
             ) : (
-                <SliderContent index={index} img1={Blue1} img={Blue}/>
+                <SliderContent index={index} text1={""} text2={""} text3={""} img1={Blue1} img={Blue}/>
             )}
             <div className={"laptop:hidden justify-center flex gap-4"} data-aos="fade-up" data-aos-duration={"600"}
                  data-aos-delay={"1200"}>
