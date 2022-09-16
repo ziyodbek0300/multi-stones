@@ -81,7 +81,7 @@ function Testimonials() {
                                 <Image src={Quote} alt={"quote symbol"}/>
                             </div>
                             <p className={"mb-10"}>
-                                Thanks to Ribeiro Stones for your Marvelous service! The entire Ribeiro’s team was so
+                                Thanks to Multi Stone Masters for your marvelous service! The entire team was so
                                 professional taking the measures, making the appointments, working even faster than the
                                 estimate from start to the end was a five stars and beyond service! Thanks again!!
                             </p>
@@ -90,7 +90,7 @@ function Testimonials() {
                                     <Image src={Pro1} alt={"Avatar"}/>
                                 </div>
                                 <div>
-                                    <p className={"text-18-20-500 mb-2"}>Jorge Luis</p>
+                                    <p className={"text-18-20-500 mb-2"}>Killian Abraham</p>
                                     <p className={"uppercase text-gray-650 text-16-22-400"}>Client</p>
                                 </div>
                             </div>
@@ -109,12 +109,31 @@ function Testimonials() {
                                     <Image src={Pro2} alt={"Avatar"}/>
                                 </div>
                                 <div>
-                                    <p className={"text-18-20-500 mb-2"}>Jorge Luis</p>
+                                    <p className={"text-18-20-500 mb-2"}>Leslie Madison</p>
                                     <p className={"uppercase text-gray-650 text-16-22-400"}>Client</p>
                                 </div>
                             </div>
                         </div>
                         <div style={{width: 400, height: 400, padding: '2rem 0', paddingRight: "3rem"}}>
+                            <div className={"mb-10"}>
+                                <Image src={Quote} alt={"quote symbol"}/>
+                            </div>
+                            <p className={"mb-10"}>
+                                MSM guy are the most honest and amazing fabricators to work with. Their quality
+                                is top notch and service is impeccable. I highly recommend them for any of your
+                                stone needs.
+                            </p>
+                            <div className={"flex items-center gap-4"}>
+                                <div>
+                                    <Image src={Pro3} alt={"Avatar"}/>
+                                </div>
+                                <div>
+                                    <p className={"text-18-20-500 mb-2"}>Jorge Luis</p>
+                                    <p className={"uppercase text-gray-650 text-16-22-400"}>Client</p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div style={{width: 400, height: 400, padding: '2rem 0', paddingRight: "3rem"}}>
                             <div className={"mb-10"}>
                                 <Image src={Quote} alt={"quote symbol"}/>
                             </div>
@@ -134,26 +153,12 @@ function Testimonials() {
                                 </div>
                             </div>
                         </div>
-                        <div style={{width: 400, height: 400, padding: '2rem 0', paddingRight: "3rem"}}>
-                            <div className={"mb-10"}>
-                                <Image src={Quote} alt={"quote symbol"}/>
-                            </div>
-                            <p className={"mb-10"}>
-                                Ribeiro Stones are the most honest and amazing fabricators to work with. Their quality
-                                is top notch. They help my business every time I am designing a kitchen. They are loyal
-                                to their customers and recommend them for all of your fabrication needs. Their staff are
-                                wonderful.
-                            </p>
-                            <div className={"flex items-center gap-4"}>
-                                <div>
-                                    <Image src={Pro3} alt={"Avatar"}/>
-                                </div>
-                                <div>
-                                    <p className={"text-18-20-500 mb-2"}>Jorge Luis</p>
-                                    <p className={"uppercase text-gray-650 text-16-22-400"}>Client</p>
-                                </div>
-                            </div>
-                        </div>
+ */}
+
+
+
+
+
                     </ReactSimplyCarousel>
                 </div>
             </div>

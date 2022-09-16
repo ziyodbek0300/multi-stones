@@ -21,24 +21,23 @@ function ThirdSection() {
                 <h2 className={"text-40-48-600 uppercase mb-4"} data-aos="fade-up" data-aos-duration={"600"}>About Us</h2>
                 <p className={"text-gray-650 mb-3"} data-aos="fade-up" data-aos-duration={"600"}>Taking more than 28 years of experience and knowledge from many areas of the stone industry into your
                     home and business.</p>
-                <p className={"text-gray-650 mb-10"} data-aos="fade-up" data-aos-duration={"600"}>We are a family business, founded by Lenny, Rafael and Gabriel we want you to feel part of our
-                    family. Request your quote with us and make your ideas come true! </p>
+                <p className={"text-gray-650 mb-10"} data-aos="fade-up" data-aos-duration={"600"}>Our average master has over 8 years of real world experience. </p>
                 <div className={"grid grid-cols-2 lg:w-[80%] mb-10"}>
                     <div className={"mb-5"} data-aos="fade-up" data-aos-duration={"600"}>
                         <h4 className={"text-40-48-600 mb-2"}>200+</h4>
-                        <p className={"text-16-22-400"}>Commercial</p>
+                        <p className={"text-16-22-400"}>Commercial projects</p>
                     </div>
                     <div className={"mb-5"} data-aos="fade-up" data-aos-duration={"600"}>
                         <h4 className={"text-40-48-600 mb-2"}>35+</h4>
-                        <p className={"text-16-22-400"}>Health Care</p>
+                        <p className={"text-16-22-400"}>Health Care projects</p>
                     </div>
                     <div className={"mb-5"} data-aos="fade-up" data-aos-duration={"600"}>
                         <h4 className={"text-40-48-600 mb-2"}>52+</h4>
-                        <p className={"text-16-22-400"}>Hospitality</p>
+                        <p className={"text-16-22-400"}>Projects in Hospitality</p>
                     </div>
                     <div className={"mb-5"} data-aos="fade-up" data-aos-duration={"600"}>
-                        <h4 className={"text-40-48-600 mb-2"}>5000+</h4>
-                        <p className={"text-16-22-400"}>Residential</p>
+                        <h4 className={"text-40-48-600 mb-2"}>1000+</h4>
+                        <p className={"text-16-22-400"}>Residential projects</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration={"600"}>

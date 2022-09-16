@@ -19,7 +19,7 @@ function WhatWeDo(props) {
                             <h2 className={"uppercase text-40-48-600 mb-5"}>Fabrication</h2>
                             <p className={"text-16-22-400 mb-10"}>
                                 Our fabrication facilities feature automated cutting, shaping, and polishing machinery
-                                enabling us to fabricate porcelain projects efficiently. Our fabrication teams
+                                to enable efficiency in fabrication. Our fabrication teams
                                 meticulously
                                 build each project in-house while finalizing detailed cuts onsite.
                             </p>
@@ -52,9 +52,7 @@ function WhatWeDo(props) {
                         <div className={"lg:w-[70%]"}>
                             <h2 className={"uppercase text-40-48-600 mb-5"}>Material</h2>
                             <p className={"text-16-22-400 mb-10"}>
-                                We currently stock 15 porcelain colors. If one location doesn’t have your selection, we
-                                can work with one of our other locations for your desired material. We also partnered
-                                with 17 porcelain manufacturers to provide an additional extensive color selection.
+                                Our inventory includes over 15 selections varying by color, type of stone and materials, which in turn vary by level. We partnered with local as well as international suppliers for various materials.
                             </p>
                             <Button text={"Learn more"} classes={"text-white bg-zinc-950"} isF={false}
                                     link={"/products"}/>

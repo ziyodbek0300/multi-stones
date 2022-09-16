@@ -29,12 +29,9 @@ function FirstSection() {
         <div className={"laptop:w-[40%] md:w-[90%] laptop:pb-14 pb-0 md:pt-20 pt-9 laptop:mb-28 mb-10"}>
             <div>
                 <h1 data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"600"}
-                    className={"text-50-60-600 mb-6"}>Lets make your ideas
-                    come to life</h1>
+                    className={"text-50-60-600 mb-6"}>Put our expert stone masters to work for you</h1>
                 <p data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"600"}
-                   className={"text-16-22-400 text-gray-650 mb-10"}>Countertop fabrication shop serving NJ, NY, PA
-                    and CT.
-                    Best prices and highest quality product.</p>
+                   className={"text-16-22-400 text-gray-650 mb-10"}>Our services include flooring, countertops, wall cladding and any other custom projects involving stones like granite, marble and quartz. </p>
                 <div data-aos="fade-up" data-aos-duration={"600"} data-aos-delay={"1200"}>
                     <Button text={"Contact us"} classes={"bg-zinc-950 text-center text-white mb-14"} isF={false}
                             link={"/#contact"}/>

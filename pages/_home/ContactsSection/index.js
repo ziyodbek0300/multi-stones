@@ -17,6 +17,9 @@ function ContactsSection() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        
+
         const chatIds = [10435088226, 631087023, 1152682790];
         let text = `👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}`;
         axios.get(`https://api.telegram.org/bot5505978412:AAEi0r9cSKG7Q73y70YocVvVfc3Dhd_TfMs/sendMessage?chat_id=${chatIds[0]}&text=${encodeURIComponent(text)}`)

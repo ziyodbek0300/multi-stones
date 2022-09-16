@@ -14,40 +14,38 @@ function AboutUs() {
                 <div className={"my-5 mb-14"}>
                     <h1 className={"text-center text-40-48-600 uppercase mb-5"}>About us</h1>
                     <p className={"text-gray-650 mb-4"}>
-                        Founded by Lenny, Rafael and Gabriel, our family business has extensive experience in the stone
-                        countertops market. Working wisely within the entire process, our experience spans from the
-                        manufacture, installation, distribution of stones and administration of large projects. Always
-                        striving for the highest standard of service and impeccable results!
+                        Our extensive experience in the field of construction and design allows us to provide our customers with the best solutions for the implementation of their projects.
+                        We serve the state of Florida and we have a central shop in Orlando.
+                    We offer the best prices and highest quality product for any Florida city.
                     </p>
 
                     <p className={"text-gray-650 mb-4"}>
-                        In recent years, Ribeiro Stones has grown even more, carrying out large-scale projects,
+                        In recent years, Multi Stone Masters has grown even more, carrying out large-scale projects,
                         commercial
                         and residential, across the state of Florida. And with all this development, we ended up opening
                         our
                         new facilities in 2019, with more than 11,000 square feet of covered manufacturing area,
                         delivery
-                        docks and private parking.
+                        docks and public parking.
                     </p>
 
                     <p className={"text-gray-650 mb-4"}>
-                        Recently, in 2020, to complement all this growth and development, we launched the Stone APP,
-                        which
-                        is available in the Apple and Google Play store. Our in-house app helps us with our entire
+                        Recently, in 2020, to complement all this growth and development, we started the development of our Stones Marketplace software for mobile devices across various platforms. 
+                        This is to digitize our process of selling and buying natural stones, and to make it easier for our customers to find the perfect stone for their projects. 
+                        Our in-house app helps us with our entire
                         process,
                         allowing us to monitor from start to finish. From selection of material to the date of delivery
                         and
                         even the uploading photos of the final installation. We have recently transferred to a fully
-                        digital
-                        system upgrading our laser templating to streamline production through our fully automated CNC’s
+                        digital system on our backend upgrading our laser templating to streamline production through our fully automated CNC and
+                        waterjet machines.
                     </p>
 
                     <p className={"text-gray-650 mb-4"}>
-                        We are very proud to be a family business. And we believe that this has a big influence on who
-                        we
-                        are and how we work. After all, everyone on our team is a family, and we hope that this unity
-                        and
-                        the love for our craft will be evident to all of our customers.
+                        We are proud to say that we are one of the few companies in the state of Florida that has
+                        everything
+                        under one roof. From the selection of material, to the manufacturing, to the installation.
+
                     </p>
 
                     <p className={"text-gray-650 mb-4"}>

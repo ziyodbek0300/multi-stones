@@ -8,9 +8,7 @@ function Projects() {
             <div className={"py-10 mb-10"}>
                 <div>
                     <h1 className={"text-40-48-600 uppercase text-center mb-5"}>Our projects</h1>
-                    <p className={"lg:w-3/5 sm:w-4/5 w-full text-center mx-auto mb-12"}>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Facilisis eget massa morbi mi justo, felis mauris. Tortor hac ut
-                        sed in vitae scelerisque ut ligula nunc.</p>
+                    <p className={"lg:w-3/5 sm:w-4/5 w-full text-center mx-auto mb-12"}>Take a look at some of the commercial and residential projects we helped with</p>
                 </div>
                 <FourthSection type={"first"}/>
             </div>

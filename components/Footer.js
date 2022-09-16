@@ -14,8 +14,7 @@ function Footer() {
                     <div className={"mb-4"}>
                         <Link href={"/"}><Image src={Logo} alt={"Logo"}/></Link>
                     </div>
-                    <p className={"text-16-22-400"}>We are a family business with over 28 years of experience in the
-                        stone countertop industry.</p>
+                    <p className={"text-16-22-400"}>Put our expert stone masters to work for you</p>
                 </div>
                 <div className={"w-full"}>
                     <p className={"text-white text-16-22-600 mb-4"}>About us</p>
@@ -35,13 +34,19 @@ function Footer() {
                     <p className={"text-white text-16-22-600 mb-4"}>Stones</p>
                     <ul className={"text-16-22-400 text-white opacity-80"}>
                         <li className={"mb-3"}>
-                            <Link href={"/projects"}>Marble</Link>
+                            <Link href={"/products/marble"}>Marble</Link>
                         </li>
                         <li className={"mb-3"}>
-                            <Link href={"/projects"}>Quartz</Link>
+                            <Link href={"/products/quartz"}>Quartz</Link>
                         </li>
                         <li className={"mb-3"}>
-                            <Link href={"/projects"}>Onyx</Link>
+                            <Link href={"/products/onyx"}>Onyx</Link>
+                        </li>
+                        <li className={"mb-3"}>
+                            <Link href={"/products/granite"}>Granite</Link>
+                        </li>
+                        <li className={"mb-3"}>
+                            <Link href={"/products/porcelain"}>Porcelain</Link>
                         </li>
                     </ul>
                 </div>
@@ -53,7 +58,7 @@ function Footer() {
                                target={"_"}>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <a href={"mailto:contact@comston.io"}>contact@comston.io</a>
+                            <a href={"mailto:contact@comston.io"}>sales@mutlistonemasters.com</a>
                         </li>
                         <li className={"footer-side mb-3"}>
                             <a href={"tel:3323222244"}>(332) 322-2244</a>
@@ -67,11 +72,11 @@ function Footer() {
                 className={"container flex lg:flex-row flex-col-reverse gap-3 lg:text-left text-center justify-between items-center"}>
                 <p className={"text-16-22-400"}>Copyright © {new Date().getFullYear()} Ribeiro Stones – All Rights
                     Reserved.</p>
-                <div className={"flex gap-5"}>
+                {/* <div className={"flex gap-5"}>
                     <a href={"https://instagram.com"} target={"_"}><Image src={Instagram} alt={"Instagram"}/></a>
                     <a href={"https://facebook.com"} target={"_"}><Image src={Facebook} alt={"FaceBook"}/></a>
                     <a href={"https://twitter.com"} target={"_"}><Image src={Twitter} alt={"Twitter"}/></a>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import FirstSection from "./FirstSection/FirstSection";
 import SecondSection from "./SecondSection/SecondSection";
 import ThirdSection from "./ThirdSection/ThirdSection";
@@ -10,17 +10,20 @@ import WhatWeDo from "./WhatWeDo";
 import Testimonials from "./Testimonials";
 
 function HomePage() {
-    return (<div>
-        <FirstSection/>
-        <SecondSection/>
-        <ThirdSection/>
-        <WhatWeDo/>
-        <FourthSection/>
-        <Testimonials/>
-        <FifthSection/>
-        <SixthSection/>
-        <ContactsSection/>
-    </div>);
+  return (
+    <div>
+        
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
+      <WhatWeDo />
+      <FourthSection />
+      <Testimonials />
+      <FifthSection />
+      <SixthSection />
+      <ContactsSection />
+    </div>
+  );
 }
 
 export default HomePage;
