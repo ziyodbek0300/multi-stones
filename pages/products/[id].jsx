@@ -11,6 +11,17 @@ import Quartz2 from "../../public/stones/quartz/03.png";
 import Onyx from "../../public/stones/onyx/01.png";
 import Onyx1 from "../../public/stones/onyx/02.png";
 import Onyx2 from "../../public/stones/onyx/03.png";
+import Porcelain from "../../public/stones/porcelain/01.png";
+import Porcelain1 from "../../public/stones/porcelain/02.png";
+import Porcelain2 from "../../public/stones/porcelain/03.png";
+import Granite from "../../public/stones/Granite/01.png";
+import Granite1 from "../../public/stones/Granite/image 23.png";
+import Granite2 from "../../public/stones/Granite/image 24.png";
+import SoapStone from "../../public/stones/soapstone/01.png";
+import SoapStone1 from "../../public/stones/soapstone/01.png";
+import SoapStone2 from "../../public/stones/soapstone/01.png";
+
+
 
 function ProductDetail() {
     const router = useRouter();
@@ -47,10 +58,10 @@ function ProductDetail() {
             description:
                 "This granite is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
             images: {
-                big: "../../public/stones/Granite/01.png",
-                "01": "../../public/stones/Granite/01.png",
-                "02": "../../public/stones/Granite/02.png",
-                "03": "../../public/stones/Granite/03.png",
+                big: Granite,
+                "01": Granite,
+                "02": Granite1,
+                "03": Granite2,
             },
         },
         porcelain: {
@@ -63,12 +74,11 @@ function ProductDetail() {
             color: "blue",
             installation: "included",
             description:
-                "This granite is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
+                "This porcelain is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
             images: {
-                big: "../../public/stones/porcelain/01.png",
-                "01": "../../public/stones/porcelain/01.png",
-                "02": "../../public/stones/porcelain/02.png",
-                "03": "../../public/stones/porcelain/03.png",
+                big: Porcelain,
+                "01": Porcelain1,
+                "02": Porcelain2,
             },
         },
         onyx: {
@@ -81,7 +91,7 @@ function ProductDetail() {
             color: "white",
             installation: "included",
             description:
-                "This granite is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
+                "This onyx is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
             images: {
                 big: Onyx,
                 "01": Onyx,
@@ -90,7 +100,7 @@ function ProductDetail() {
             },
         },
         grey_quartz: {
-            title: "Grey Quartz",
+            title: "Soapstone",
             text1:
                 "Our inventory is always changing. Contact your location about specific colors and finishes.",
             size: "60x126",
@@ -99,12 +109,12 @@ function ProductDetail() {
             color: "grey",
             installation: "included",
             description:
-                "This granite is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
+                "This soapstone is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
             images: {
-                big: "../../public/stones/quartz/01.png",
-                "01": "../../public/stones/quartz/01.png",
-                "02": "../../public/stones/quartz/02.png",
-                "03": "../../public/stones/quartz/03.png",
+                big: SoapStone,
+                "01": SoapStone,
+                "02": SoapStone1,
+                "03": SoapStone2,
             },
         },
         quartz: {
@@ -117,7 +127,7 @@ function ProductDetail() {
             color: "grey",
             installation: "included",
             description:
-                "This granite is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
+                "This quartz is a beautiful material that is incredibly versatile, pairing with both modern and traditional designs, it is perfect for creating a feature within your interior design. It will lift your home to a new design level.",
             images: {
                 big: Quartz,
                 "01": Quartz,

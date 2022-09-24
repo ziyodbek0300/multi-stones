@@ -51,7 +51,7 @@ function FirstSection() {
             <div onClick={() => router.push('/products/grey_quartz')} data-aos="fade-up" data-aos-duration={"600"} className={"relative pb-0 mb-0 h-[400px] exBg"}>
                 <div className={"bg-tanerofka s opacity-0 absolute h-1/2 bottom-0 w-full z-40"}></div>
                 <div className={"absolute s opacity-0 z-40 bottom-0 p-6"}>
-                    <h3 className={"text-white text-24-30-600 mb-2"}>Grey quartz</h3>
+                    <h3 className={"text-white text-24-30-600 mb-2"}>Soapstone</h3>
                 </div>
             </div>
             <div onClick={() => router.push('/products/onyx')} data-aos="fade-up" data-aos-duration={"600"} className={"relative pb-0 mb-0 h-[400px] exBg"}>
