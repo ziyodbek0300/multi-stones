@@ -15,10 +15,13 @@ function ContactsSection() {
         AOS.refresh()
     }, []);
 
+
+
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
-
+        
 
         const chatIds = [10435088226, 631087023, 1152682790];
         let text = `👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}`;
@@ -49,6 +52,13 @@ function ContactsSection() {
             }, 1000)
 
         })
+
+        console.log("THANK YOU PAGE")
+        try {
+            generateETag('event', 'conversion', {'send_to': 'AW-10982841403/eHEdCM7JsuEDELu4g_Uo'});
+        } catch (e) {
+            console.log("phone tracking", e)
+        }
 
 
     }

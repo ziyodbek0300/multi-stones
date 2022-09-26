@@ -5,6 +5,40 @@ import Instagram from '../public/instagram.svg';
 import Facebook from '../public/facebook.svg';
 import Twitter from '../public/twitter.svg';
 import Link from "next/link";
+import {generateETag} from "next/dist/server/lib/etag";
+
+const handleEmailClick = () => {
+    console.log("Email Clicked")
+    try {
+        var callback = function () {
+            if (typeof (url) != 'undefined') {
+                window.location = url;
+            } else if (url === 'http://www.multistonemasters.com' || url === 'https://www.multistonemasters.com' || url === 'http://multistonemasters.com' || url === 'https://multistonemasters.com') {
+                window.location = url;
+            }
+        };
+        generateETag('event', 'conversion', {
+            'send_to': 'AW-10982841403/QaAkCMvJsuEDELu4g_Uo',
+            'event_callback': callback
+        });
+    } catch (e) {
+        console.log("Gtag", e)
+    }
+    return false;
+}
+
+const handlePhoneClick = () => {
+    console.log("Phone Clicked")
+    try {
+        generateETag('config', 'AW-10982841403/dNeFCK_q_OADELu4g_Uo', {
+            'phone_conversion_number': '(332) 322-2244'
+        });
+    } catch (e) {
+        console.log("phone tracking", e)
+    }
+}
+
+
 
 function Footer() {
     return (<div className={"bg-zinc-950 text-gray-350"}>
@@ -58,10 +92,10 @@ function Footer() {
                                target={"_"}>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <a href={"mailto:contact@comston.io"}>sales@mutlistonemasters.com</a>
+                            <a href={"mailto:contact@comston.io"} onClick={handleEmailClick}>sales@mutlistonemasters.com</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <a href={"tel:3323222244"}>(332) 322-2244</a>
+                            <a href="tel:3323222244" onClick={handlePhoneClick}>(332) 322-2244</a>
                         </li>
                     </ul>
                 </div>
@@ -70,7 +104,7 @@ function Footer() {
         <div className={'border-t border-[#636363] py-8'}>
             <div
                 className={"container flex lg:flex-row flex-col-reverse gap-3 lg:text-left text-center justify-between items-center"}>
-                <p className={"text-16-22-400"}>Copyright © {new Date().getFullYear()} Ribeiro Stones – All Rights
+                <p className={"text-16-22-400"}>Copyright © {new Date().getFullYear()} Multi Stone Masters – All Rights
                     Reserved.</p>
                 {/* <div className={"flex gap-5"}>
                     <a href={"https://instagram.com"} target={"_"}><Image src={Instagram} alt={"Instagram"}/></a>
