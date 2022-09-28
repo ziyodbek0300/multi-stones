@@ -117,7 +117,7 @@ function Footer() {
                                target={"_"}>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <a href={"mailto:sales@multistonemasters.com"} onClick={handleEmailClick}>sales@mutlistonemasters.com</a>
+                            <a href={"mailto:sales@multistonemasters.com"} onClick={handleEmailClick}>sales@multistonemasters.com</a>
                         </li>
                         <li className={"footer-side mb-3"}>
                             <a href="tel:3323222244" onClick={handlePhoneClick}>(332) 322-2244</a>
