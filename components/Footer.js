@@ -5,6 +5,7 @@ import Instagram from '../public/instagram.svg';
 import Facebook from '../public/facebook.svg';
 import Twitter from '../public/twitter.svg';
 import Link from "next/link";
+import {generateETag} from "next/dist/server/lib/etag";
 import * as gtag from '../lib/gtag'
 
 const handleEmailClick = () => {
@@ -17,7 +18,7 @@ const handleEmailClick = () => {
                 window.location = url;
             }
         };
-        gtag.event('conversion', {
+        generateETag('event', 'conversion', {
             'send_to': 'AW-10982841403/QaAkCMvJsuEDELu4g_Uo',
             'event_callback': callback
         });
@@ -27,17 +28,39 @@ const handleEmailClick = () => {
     return false;
 }
 
-
-
 const handlePhoneClick = () => {
+    // console.log("Phone Clicked")
+    // try {
+    //     // gtag('event', 'config', 'AW-10982841403/dNeFCK_q_OADELu4g_Uo', {
+    //     //     'phone_conversion_number': '(332) 322-2244'
+    //     // });
+    //     window.gtag('event', 'conversion', {
+    //         event_category: 'phone',
+    //         event_label: 'AW-10982841403/dNeFCK_q_OADELu4g_Uo',
+    //         value: 'AW-10982841403/dNeFCK_q_OADELu4g_Uo',
+    //     })
+
+    // } catch (e) {
+    //     console.log("phone tracking", e)
+    // }
     console.log("Phone Clicked")
     try {
-        gtag.event('config', 'AW-10982841403/dNeFCK_q_OADELu4g_Uo', {
-            'phone_conversion_number': '(332) 322-2244'
+        var callback = function () {
+            if (typeof (url) != 'undefined') {
+                window.location = url;
+            } else if (url === 'http://www.multistonemasters.com' || url === 'https://www.multistonemasters.com' || url === 'http://multistonemasters.com' || url === 'https://multistonemasters.com') {
+                window.location = url;
+            }
+        };
+        generateETag('config', 'AW-10982841403/dNeFCK_q_OADELu4g_Uo', {
+            'phone_conversion_number': '(332) 322-2244',
+            'event_callback': callback
         });
+
     } catch (e) {
-        console.log("phone tracking", e)
+        console.log("Gtag", e)
     }
+    return false;
 }
 
 
@@ -94,7 +117,7 @@ function Footer() {
                                target={"_"}>8010 Sunport Dr., Ste 122, Orlando, Florida, 32809</a>
                         </li>
                         <li className={"footer-side mb-3"}>
-                            <a href={"mailto:sales@multistonemasters.com"} onClick={handleEmailClick}>sales@multistonemasters.com</a>
+                            <a href={"mailto:sales@multistonemasters.com"} onClick={handleEmailClick}>sales@mutlistonemasters.com</a>
                         </li>
                         <li className={"footer-side mb-3"}>
                             <a href="tel:3323222244" onClick={handlePhoneClick}>(332) 322-2244</a>
