@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Script from 'next/script'
 import * as gtag from '../lib/gtag'
 import Head from 'next/head'
+
 function MyApp({Component, pageProps}) {
     return (<Layout>
         {/* Global Site Tag (gtag.js) - Google Ads */}

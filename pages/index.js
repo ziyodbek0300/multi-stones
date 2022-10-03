@@ -13,7 +13,7 @@ export default function Home() {
                 <meta name="description" content="Multi stone masters"/>
                 <link rel="icon" href="/favicon.ico"/>
                 <link rel="icon" href="/favicon.ico"/>
-                <script>
+                {/* <script>
                     {`
                         function gtag_report_conversion(url) {
                             var callback = function () {
@@ -35,7 +35,7 @@ export default function Home() {
                             'phone_conversion_number': '(332) 322-2244'
                           });
                     `}
-                </script>
+                </script> */}
             </Head>
 
             <main className={styles.main}>
