@@ -61,6 +61,10 @@ function Products() {
                             <Link href={"/products"}>Products</Link>
                         </li>
                         <li onClick={() => setOpen(false)}
+                            className={router.asPath === '/visualizer' ? 'font-bold mx-5' : 'mx-5'}>
+                            <Link href={"/visualizer"}>Visualizer</Link>
+                        </li>
+                        <li onClick={() => setOpen(false)}
                             className={router.asPath === '/about-us' ? 'font-bold mx-5' : 'mx-5'}>
                             <Link href={"/about-us"}>About us</Link>
                         </li>

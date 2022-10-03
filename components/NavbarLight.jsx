@@ -39,7 +39,7 @@ function NavbarLight() {
                     </li>
                     <li onClick={() => setOpen(false)}
                         className={router.asPath === '/visualizer' ? 'font-bold mx-5' : 'mx-5'}>
-                        <Link href={"/visualizer"}>Visualizer Tool</Link>
+                        <Link href={"/visualizer"}>Visualizer</Link>
                     </li>
                     <li onClick={() => setOpen(false)}
                         className={router.asPath === '/about-us' ? 'font-bold mx-5' : 'mx-5'}>
