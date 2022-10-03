@@ -15,13 +15,8 @@ function ContactsSection() {
         AOS.refresh()
     }, []);
 
-
-
-
     const handleSubmit = (e) => {
         e.preventDefault();
-
-        
 
         const chatIds = [10435088226, 631087023, 1152682790];
         let text = `👨: ${e.target[0].value}\n📥: ${e.target[1].value}\n📞: ${e.target[2].value}`;
