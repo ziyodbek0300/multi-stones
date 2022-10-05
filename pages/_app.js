@@ -42,50 +42,24 @@ function MyApp({Component, pageProps}) {
           }}
         />
 
-          {/* <Script
+        <Script
           id="gtag-init"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
-            gtag('config', '${gtag.GA_TRACKING_ID}/dNeFCK_q_OADELu4g_Uo', {
-              'phone_conversion_number': '(332) 322-2244'
-            });
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '2305511296277892');
+            fbq('track', 'PageView');
             `,
           }}
-        />
-
-        <Script
-                  id="gtag-init"
-                  strategy="afterInteractive"
-                  dangerouslySetInnerHTML={{
-                    __html: `
-                    gtag('config', '${gtag.GA_TRACKING_ID}/dNeFCK_q_OADELu4g_Uo', {
-                      'phone_conversion_number': '(332) 322-2244'
-                    });
-                    `,
-                  }}
-                />
-
-        <Script
-            id="gtag-init"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
-            function gtag_report_conversion(url) {
-              var callback = function () {
-                if (typeof(url) != 'undefined') {
-                  window.location = url;
-                }
-              };
-              gtag('event', 'conversion', {
-                  'send_to': '${gtag.GA_TRACKING_ID}/QaAkCMvJsuEDELu4g_Uo',
-                  'event_callback': callback
-              });
-              return false;
-            }`,
-            }}
-        /> */}
-
+        />        
         <Component {...pageProps} />
     </Layout>)
 }

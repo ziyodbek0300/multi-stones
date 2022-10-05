@@ -13,29 +13,8 @@ export default function Home() {
                 <meta name="description" content="Multi stone masters"/>
                 <link rel="icon" href="/favicon.ico"/>
                 <link rel="icon" href="/favicon.ico"/>
-                {/* <script>
-                    {`
-                        function gtag_report_conversion(url) {
-                            var callback = function () {
-                              if (typeof(url) != 'undefined') {
-                                window.location = url;
-                              }
-                            };
-                            gtag('event', 'conversion', {
-                                'send_to': 'AW-10982841403/QaAkCMvJsuEDELu4g_Uo',
-                                'event_callback': callback
-                            });
-                            return false;
-                          }
-                    `}
-                </script>
-                <script>
-                    {`
-                        gtag('config', 'AW-10982841403/dNeFCK_q_OADELu4g_Uo', {
-                            'phone_conversion_number': '(332) 322-2244'
-                          });
-                    `}
-                </script> */}
+                <meta name="facebook-domain-verification" content="nexsh77p3oixpt96g6jjtgzhr5yek2" />
+                
             </Head>
 
             <main className={styles.main}>
