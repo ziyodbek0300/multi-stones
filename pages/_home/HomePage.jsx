@@ -8,6 +8,7 @@ import SixthSection from "./SixthSection/SixthSection";
 import ContactsSection from "./ContactsSection";
 import WhatWeDo from "./WhatWeDo";
 import Testimonials from "./Testimonials";
+import ServiceBell from "@servicebell/widget";
 
 function HomePage() {
   return (

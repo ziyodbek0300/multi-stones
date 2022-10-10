@@ -159,6 +159,11 @@
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz"
   integrity sha512-LwzQKA4vzIct1zNZzBmRKI9QuNpLgTQMEjsQLf3BXuGYb3QPTP4Yjf6mkdX+X1mYttZ808QpOwAzZjv28kq7DA==
 
+"@servicebell/widget@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@servicebell/widget/-/widget-0.1.3.tgz#6733c77b6a630e920c4d935861c8d3423165f95e"
+  integrity sha512-DbmIAX0p0OONK3wE0sb/SP+G7ecmKyV9GPEmd+M8Ze45ZejRs6KZBTXok5IkyO8knSoD9Lg5ymQ+PYf6I7pD2Q==
+
 "@swc/helpers@0.4.3":
   version "0.4.3"
   resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.4.3.tgz"
