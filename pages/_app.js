@@ -8,7 +8,7 @@ function MyApp({Component, pageProps}) {
 
     return (<Layout>
         {/* Global Site Tag (gtag.js) - Google Ads */}
-        {/* <Script
+        <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
         />
@@ -23,10 +23,10 @@ function MyApp({Component, pageProps}) {
               gtag('config', '${gtag.GA_TRACKING_ID}');
             `,
           }}
-        /> */}
+        />
 
         {/* Global Site Tag (gtag.js) - Google Analytics */}
-        {/* <Script
+        <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=G-3EX12L863R`}
         />
@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-N5FB4DG');
             `,
           }}
-        />       */}
+        />      
 
 <Script
         id="marquiz-init"
