@@ -102,7 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <Script
-          id="service-bell-init"
+          id="hotjar-init"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
