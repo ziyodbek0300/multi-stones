@@ -107,6 +107,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           dangerouslySetInnerHTML={{
             __html: `
             (function(h,o,t,j,a,r){
+              console.log("Hotjar integration is here...");
               h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
               h._hjSettings={hjid:3216498,hjsv:6};
               a=o.getElementsByTagName('head')[0];
